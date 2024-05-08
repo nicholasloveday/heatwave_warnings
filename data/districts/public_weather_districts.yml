@@ -1,0 +1,270 @@
+NSW_PW001:
+  dist_name: Northern Rivers
+  state_code: NSW & ACT
+NSW_PW002:
+  dist_name: Mid North Coast
+  state_code: NSW & ACT
+NSW_PW003:
+  dist_name: Hunter
+  state_code: NSW & ACT
+NSW_PW004:
+  dist_name: Northern Tablelands
+  state_code: NSW & ACT
+NSW_PW005:
+  dist_name: Metropolitan
+  state_code: NSW & ACT
+NSW_PW006:
+  dist_name: Illawarra
+  state_code: NSW & ACT
+NSW_PW007:
+  dist_name: South Coast
+  state_code: NSW & ACT
+NSW_PW008:
+  dist_name: Central Tablelands
+  state_code: NSW & ACT
+NSW_PW009:
+  dist_name: Southern Tablelands
+  state_code: NSW & ACT
+NSW_PW010:
+  dist_name: Snowy Mountains
+  state_code: NSW & ACT
+NSW_PW011:
+  dist_name: North West Slopes & Plains
+  state_code: NSW & ACT
+NSW_PW012:
+  dist_name: Central West Slopes & Plains
+  state_code: NSW & ACT
+NSW_PW013:
+  dist_name: South West Slopes
+  state_code: NSW & ACT
+NSW_PW014:
+  dist_name: Riverina
+  state_code: NSW & ACT
+NSW_PW015:
+  dist_name: Lower Western
+  state_code: NSW & ACT
+NSW_PW016:
+  dist_name: Upper Western
+  state_code: NSW & ACT
+NSW_PW017:
+  dist_name: Australian Capital Territory
+  state_code: NSW & ACT
+NT_PW001:
+  dist_name: Daly
+  state_code: NT
+NT_PW002:
+  dist_name: Tiwi
+  state_code: NT
+NT_PW003:
+  dist_name: Arnhem
+  state_code: NT
+NT_PW004:
+  dist_name: Carpentaria
+  state_code: NT
+NT_PW005:
+  dist_name: Gregory
+  state_code: NT
+NT_PW006:
+  dist_name: Barkly
+  state_code: NT
+NT_PW007:
+  dist_name: Simpson
+  state_code: NT
+NT_PW008:
+  dist_name: Lasseter
+  state_code: NT
+NT_PW009:
+  dist_name: Tanami
+  state_code: NT
+QLD_PW001:
+  dist_name: Peninsula
+  state_code: QLD
+QLD_PW002:
+  dist_name: Gulf Country
+  state_code: QLD
+QLD_PW003:
+  dist_name: Northern Goldfields and Upper Flinders
+  state_code: QLD
+QLD_PW004:
+  dist_name: North Tropical Coast and Tablelands
+  state_code: QLD
+QLD_PW005:
+  dist_name: Herbert and Lower Burdekin
+  state_code: QLD
+QLD_PW006:
+  dist_name: Central Coast and Whitsundays
+  state_code: QLD
+QLD_PW007:
+  dist_name: Capricornia
+  state_code: QLD
+QLD_PW008:
+  dist_name: Central Highlands and Coalfields
+  state_code: QLD
+QLD_PW009:
+  dist_name: Central West
+  state_code: QLD
+QLD_PW010:
+  dist_name: North West
+  state_code: QLD
+QLD_PW011:
+  dist_name: Channel Country
+  state_code: QLD
+QLD_PW012:
+  dist_name: Maranoa and Warrego
+  state_code: QLD
+QLD_PW013:
+  dist_name: Darling Downs and Granite Belt
+  state_code: QLD
+QLD_PW014:
+  dist_name: Wide Bay and Burnett
+  state_code: QLD
+QLD_PW015:
+  dist_name: Southeast Coast
+  state_code: QLD
+SA_PW001:
+  dist_name: Adelaide Metropolitan
+  state_code: SA
+SA_PW002:
+  dist_name: Yorke Peninsula
+  state_code: SA
+SA_PW003:
+  dist_name: Kangaroo Island
+  state_code: SA
+SA_PW004:
+  dist_name: Upper South East
+  state_code: SA
+SA_PW005:
+  dist_name: Lower South East
+  state_code: SA
+SA_PW006:
+  dist_name: Riverland
+  state_code: SA
+SA_PW007:
+  dist_name: Murraylands
+  state_code: SA
+SA_PW008:
+  dist_name: Mid North
+  state_code: SA
+SA_PW009:
+  dist_name: Flinders
+  state_code: SA
+SA_PW010:
+  dist_name: West Coast
+  state_code: SA
+SA_PW011:
+  dist_name: Eastern Eyre Peninsula
+  state_code: SA
+SA_PW012:
+  dist_name: Lower Eyre Peninsula
+  state_code: SA
+SA_PW013:
+  dist_name: North West Pastoral
+  state_code: SA
+SA_PW014:
+  dist_name: North East Pastoral
+  state_code: SA
+SA_PW015:
+  dist_name: Mount Lofty Ranges
+  state_code: SA
+TAS_PW001:
+  dist_name: Furneaux Islands
+  state_code: TAS
+TAS_PW002:
+  dist_name: North East
+  state_code: TAS
+TAS_PW003:
+  dist_name: East Coast
+  state_code: TAS
+TAS_PW004:
+  dist_name: Central North
+  state_code: TAS
+TAS_PW005:
+  dist_name: Midlands
+  state_code: TAS
+TAS_PW006:
+  dist_name: South East
+  state_code: TAS
+TAS_PW007:
+  dist_name: Upper Derwent Valley
+  state_code: TAS
+TAS_PW008:
+  dist_name: Central Plateau
+  state_code: TAS
+TAS_PW009:
+  dist_name: Western
+  state_code: TAS
+TAS_PW010:
+  dist_name: North West Coast
+  state_code: TAS
+TAS_PW011:
+  dist_name: King Island
+  state_code: TAS
+VIC_PW001:
+  dist_name: Mallee
+  state_code: VIC
+VIC_PW002:
+  dist_name: Wimmera
+  state_code: VIC
+VIC_PW003:
+  dist_name: Northern Country
+  state_code: VIC
+VIC_PW004:
+  dist_name: North East
+  state_code: VIC
+VIC_PW005:
+  dist_name: East Gippsland
+  state_code: VIC
+VIC_PW006:
+  dist_name: West and South Gippsland
+  state_code: VIC
+VIC_PW007:
+  dist_name: Central
+  state_code: VIC
+VIC_PW008:
+  dist_name: North Central
+  state_code: VIC
+VIC_PW009:
+  dist_name: South West
+  state_code: VIC
+WA_PW001:
+  dist_name: Kimberley
+  state_code: WA
+WA_PW002:
+  dist_name: Pilbara
+  state_code: WA
+WA_PW003:
+  dist_name: Gascoyne
+  state_code: WA
+WA_PW004:
+  dist_name: Goldfields
+  state_code: WA
+WA_PW005:
+  dist_name: Eucla
+  state_code: WA
+WA_PW006:
+  dist_name: North Interior
+  state_code: WA
+WA_PW007:
+  dist_name: South Interior
+  state_code: WA
+WA_PW008:
+  dist_name: Central West
+  state_code: WA
+WA_PW009:
+  dist_name: Lower West
+  state_code: WA
+WA_PW010:
+  dist_name: South West
+  state_code: WA
+WA_PW011:
+  dist_name: South Coastal
+  state_code: WA
+WA_PW012:
+  dist_name: South East Coastal
+  state_code: WA
+WA_PW013:
+  dist_name: Great Southern
+  state_code: WA
+WA_PW014:
+  dist_name: Central Wheat Belt
+  state_code: WA
