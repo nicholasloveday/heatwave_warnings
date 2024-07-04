@@ -6,6 +6,9 @@ dependencies:
   - plotly
   - jupyter
   - netcdf4
+  - geopandas
+  - cartopy
+  - dask
   - pip:
       - scores
       - kaleido

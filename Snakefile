@@ -17,13 +17,13 @@ rule fig_2:
 rule fig_3_generate_netcdf:
   conda: "workflow/envs/notebooks.yml"
   log: "logs/fig_3_generate_netcdf.log"
-  input: "results/skill_score.nc"
   output: "results/skill_score.nc"
   notebook: "src/generate_fig3_results.ipynb"
 
 rule fig_3:
   conda: "workflow/envs/notebooks.yml"
   log: "logs/fig_3.log"
+  input: "results/skill_score.nc"
   output: 
     "results/figures/fig_3_skill_score_lead_day.pdf",
     "results/figures/fig_3skill_score_colourbar.pdf",
