@@ -1,0 +1,11 @@
+channels:
+  - conda-forge
+  - plotly
+dependencies:
+  - pip
+  - plotly
+  - jupyter
+  - netcdf4
+  - pip:
+      - scores
+      - kaleido
