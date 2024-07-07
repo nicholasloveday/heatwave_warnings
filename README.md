@@ -39,7 +39,7 @@ mamba install mamba
 
 ## Directory layout
 
-* `src/`: The notebooks and python code used to produce the figures and maps in the Jive paper.
+* `src/`: The notebooks and python code used to produce the figures and maps in the heatwave paper.
 * `data/`: The data used by the notebooks.
 * `results/`: The figures produced by running snakemake to reproduce report contents are placed here.
 * `published_results/`: The figures produced by the paper author, to compare against.
