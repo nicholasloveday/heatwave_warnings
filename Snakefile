@@ -2,7 +2,7 @@ rule all:
   input:
     "results/figures/fig2.pdf",
     "results/figures/fig_3_skill_score_lead_day.pdf",
-    "results/figures/fig_3skill_score_colourbar.pdf",
+    "results/figures/fig_3_skill_score_colourbar.pdf",
     "results/figures/fig_4_isoreg.pdf",
     "results/figures/fig_5_firm_recal.pdf",
     "results/figures/fig_6_synthetic_subplot.pdf",
@@ -26,7 +26,7 @@ rule fig_3:
   input: "results/skill_score.nc"
   output: 
     "results/figures/fig_3_skill_score_lead_day.pdf",
-    "results/figures/fig_3skill_score_colourbar.pdf",
+    "results/figures/fig_3_skill_score_colourbar.pdf",
   notebook: "src/fig_3_skill_score_plot.ipynb"
 
 rule fig_4:
