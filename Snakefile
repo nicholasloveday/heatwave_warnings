@@ -11,7 +11,9 @@ rule all:
 rule fig_2:
   conda: "workflow/envs/notebooks.yml"
   log: "logs/fig_2.log"
-  output: "results/figures/fig2.pdf"
+  output: 
+    "results/figures/fig2.pdf"
+    "results/figures/fig2.svg"
   notebook: "src/fig_2_firm_line.ipynb"
 
 rule fig_3_generate_netcdf:
@@ -27,18 +29,24 @@ rule fig_3:
   output: 
     "results/figures/fig_3_skill_score_lead_day.pdf",
     "results/figures/fig_3skill_score_colourbar.pdf",
+    "results/figures/fig_3_skill_score_lead_day.svg",
+    "results/figures/fig_3skill_score_colourbar.svg",
   notebook: "src/fig_3_skill_score_plot.ipynb"
 
 rule fig_4:
   conda: "workflow/envs/notebooks.yml"
   log: "logs/fig_4.log"
-  output: "results/figures/fig_4_isoreg.pdf"
+  output: 
+    "results/figures/fig_4_isoreg.pdf"
+    "results/figures/fig_4_isoreg.svg"
   notebook: "src/fig_4_isotonic_regression.ipynb"
 
 rule fig_5:
   conda: "workflow/envs/notebooks.yml"
   log: "logs/fig_5.log"
-  output: "results/figures/fig_5_firm_recal.pdf"
+  output: 
+    "results/figures/fig_5_firm_recal.pdf"
+    "results/figures/fig_5_firm_recal.svg"
   notebook: "src/fig_5_post_processing.ipynb"
 
 rule fig_6_7:
@@ -47,4 +55,6 @@ rule fig_6_7:
   output: 
     "results/figures/fig_6_synthetic_subplot.pdf",
     "results/figures/fig_7_synthetic_subplot.pdf"
+    "results/figures/fig_6_synthetic_subplot.svg",
+    "results/figures/fig_7_synthetic_subplot.svg"
   notebook: "src/figs_6_and_7_synthetic_experiment.ipynb"
