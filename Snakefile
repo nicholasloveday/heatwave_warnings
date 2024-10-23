@@ -1,12 +1,19 @@
 rule all:
   input:
     "results/figures/fig2.pdf",
+    "results/figures/fig2.svg",
     "results/figures/fig_3_skill_score_lead_day.pdf",
+    "results/figures/fig_3_skill_score_lead_day.svg",
     "results/figures/fig_3skill_score_colourbar.pdf",
+    "results/figures/fig_3skill_score_colourbar.svg",
     "results/figures/fig_4_isoreg.pdf",
+    "results/figures/fig_4_isoreg.svg",
     "results/figures/fig_5_firm_recal.pdf",
+    "results/figures/fig_5_firm_recal.svg",
     "results/figures/fig_6_synthetic_subplot.pdf",
+    "results/figures/fig_6_synthetic_subplot.svg",
     "results/figures/fig_7_synthetic_subplot.pdf"
+    "results/figures/fig_7_synthetic_subplot.svg"
 
 rule fig_2:
   conda: "workflow/envs/notebooks.yml"
